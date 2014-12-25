@@ -1,0 +1,5 @@
+G:\Omri\comp_science\csharp\excercises\check_all_letters\check_all_letters\bin\Release\check_all_letters.exe
+G:\Omri\comp_science\csharp\excercises\check_all_letters\check_all_letters\bin\Release\check_all_letters.pdb
+G:\Omri\comp_science\csharp\excercises\check_all_letters\check_all_letters\obj\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\excercises\check_all_letters\check_all_letters\obj\Release\check_all_letters.exe
+G:\Omri\comp_science\csharp\excercises\check_all_letters\check_all_letters\obj\Release\check_all_letters.pdb

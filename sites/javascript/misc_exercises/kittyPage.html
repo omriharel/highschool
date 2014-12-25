@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>meow~</title>
+	</head>
+	<body>
+		<script language="javascript">
+			var userName;
+			userName = window.prompt("Hey, what's your name? Meow~","");
+			userName = userName.charAt(0).toUpperCase() + userName.substring(1, userName.length+1).toLowerCase();
+			if (userName == "Omri" || userName == "Icy")
+			{
+				document.write('<table background="img/cute_kitty.jpg" cellpadding="6">\
+							<tr><td width="50%" height="320" valign="top">\
+								<font color="#DDDDDD" face="Arial">OMG MEOW~~ <3<br>\
+								I love you, master ' + userName + ' :3</font>\
+							</td></tr>\
+						</table>');
+			}
+			else
+			{
+				document.write('<table background="img/scared_kitty.jpg" cellpadding="6">\
+							<tr><td width="380" height="432" valign="top">\
+								<font color="#DDDDDD" face="Arial">GRRR~~ <&#47;3<br>\
+								I don\'t know you, ' + userName + ' 3:</font>\
+							</td></tr>\
+						</table>');
+			} 
+		</script>
+	</body>
+</html>

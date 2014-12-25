@@ -1,0 +1,5 @@
+bin\Debug\GuitarHero.exe
+bin\Debug\GuitarHero.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GuitarHero.exe
+obj\Debug\GuitarHero.pdb

@@ -1,0 +1,16 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GuitarHeroSim.MainScreen.resources
+obj\Debug\GuitarHeroSim.Properties.Resources.resources
+obj\Debug\GuitarHeroSim.csproj.GenerateResource.Cache
+bin\Debug\GuitarHeroSim.exe
+bin\Debug\GuitarHeroSim.pdb
+obj\Debug\GuitarHeroSim.exe
+obj\Debug\GuitarHeroSim.pdb
+bin\Release\GuitarHeroSim.exe
+bin\Release\GuitarHeroSim.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\GuitarHeroSim.MainScreen.resources
+obj\Release\GuitarHeroSim.Properties.Resources.resources
+obj\Release\GuitarHeroSim.csproj.GenerateResource.Cache
+obj\Release\GuitarHeroSim.exe
+obj\Release\GuitarHeroSim.pdb

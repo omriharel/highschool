@@ -1,0 +1,24 @@
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\background.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\cannon.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\cannonball.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\enemy.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\firstGame.exe
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Release\firstGame.pdb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Release\firstGame.exe
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Release\firstGame.pdb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\background.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\cannon.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\cannonball.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\enemy.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\firstGame.exe
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\firstGame.pdb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\obj\x86\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\obj\x86\Release\firstGame.exe
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\obj\x86\Release\firstGame.pdb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Fonts\GameFont.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\explosion.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\smoke.xnb
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\bin\x86\Release\Content\Sprites\tomer.xnb

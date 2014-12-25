@@ -1,0 +1,5 @@
+G:\Omri\comp_science\csharp\2005\projects\GuitarHero\GuitarHero\obj\Debug\GuitarHero.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHero\GuitarHero\obj\Debug\GuitarHero.pdb
+G:\Omri\comp_science\csharp\2005\projects\GuitarHero\GuitarHero\bin\Debug\GuitarHero.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHero\GuitarHero\bin\Debug\GuitarHero.pdb
+G:\Omri\comp_science\csharp\2005\projects\GuitarHero\GuitarHero\obj\Debug\ResolveAssemblyReference.cache

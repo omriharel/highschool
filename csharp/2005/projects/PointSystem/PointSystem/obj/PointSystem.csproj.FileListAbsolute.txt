@@ -1,0 +1,7 @@
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\obj\Debug\PointSystem.exe
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\obj\Debug\PointSystem.pdb
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\bin\Debug\PointSystem.exe
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\bin\Debug\PointSystem.pdb
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\obj\Debug\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\obj\Debug\PointSystem.Drawer.resources
+G:\Omri\comp_science\csharp\2005\projects\PointSystem\PointSystem\obj\Debug\PointSystem.csproj.GenerateResource.Cache

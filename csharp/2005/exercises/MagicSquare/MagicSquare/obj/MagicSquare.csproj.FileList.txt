@@ -1,0 +1,2 @@
+obj\Release\MagicSquare.exe
+obj\Release\MagicSquare.pdb

@@ -1,0 +1,7 @@
+bin\Debug\PointSystem.exe
+bin\Debug\PointSystem.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PointSystem.exe
+obj\Debug\PointSystem.pdb
+obj\Debug\PointSystem.Drawer.resources
+obj\Debug\PointSystem.csproj.GenerateResource.Cache

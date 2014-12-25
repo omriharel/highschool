@@ -1,0 +1,184 @@
+<html>
+	<head>
+		<title>SSA (super special awesome) Stopwatch</title>
+		<script language="javascript">
+			var myTime = new Date();
+			myTime.setTime(0);
+			var myMinutes = myTime.getMinutes();
+			var mySeconds = myTime.getSeconds();
+			var myTenMiliseconds = 0;
+			var colorCurrentForTimerBG = 255;
+			var colorUpForTimerBG = false;
+			var colorCurrentForTimerText = 140;
+			var colorUpForTimerText = true;
+			var startCount = 0;
+			var toDisplay = "00:00.00";
+			var pauseResetOk = false;
+			var saveOk = false;
+			bgChangeForTimer = setInterval("changeBgColorOfTheTimer()",1);
+			colorChangeForTimerText = setInterval("changeColorOfTheTimerText()",1);
+			
+			function startTimer()
+			{
+				saveOk = true;
+				if (startCount == 0)
+				{
+					pauseResetOk = true;
+					startCount++;
+					mins = setInterval("updateMinutes()",60000);
+					secs = setInterval("updateSeconds()",1000);
+					tenMilisecs = setInterval("updateTenMiliseconds()",10);
+					timerActive = setInterval("updateTimer()",10);
+				}
+				else
+				document.getElementById("linebreak").innerHTML = "Please don't try to accelerate particles. <input type='button' value='Ok' onclick='disappear()'>";
+			}
+			
+			function disappear()
+			{
+				document.getElementById("linebreak").innerHTML = "";
+			}
+			
+			function pauseTimer()
+			{
+				if (pauseResetOk)
+				{
+					pausedMins = myTime.getMinutes();
+					clearInterval(mins);
+					myMinutes = pausedMins;
+					pausedSecs = myTime.getSeconds();
+					clearInterval(secs);
+					mySeconds = pausedSecs;
+					pausedTenMilisecs = myTenMiliseconds;
+					clearInterval(tenMilisecs);
+					myTenMiliseconds = pausedTenMilisecs;
+					clearInterval(timerActive);
+					startCount = 0;
+				}
+			}
+
+			function resetTimer()
+			{
+				if (pauseResetOk)
+				{
+					clearInterval(mins);
+					clearInterval(secs);
+					clearInterval(tenMilisecs);
+					clearInterval(timerActive);
+					startCount = 0;
+					myTime.setTime(0);
+					myTenMiliseconds = 0;
+					myMinutes = myTime.getMinutes();
+					mySeconds = myTime.getSeconds();
+					toDisplay = "00:00.00";
+					updateTimer();
+				}
+			}
+
+			function saveThis()
+			{
+				if (saveOk && toDisplay != "00:00.00")
+				document.getElementById("savedresults").innerHTML += "<li>" + toDisplay + "</li>";	
+			}
+			
+			function updateMinutes()
+			{
+				myTime.setMinutes(myTime.getMinutes()+1);
+				myMinutes = myTime.getMinutes();
+			}
+			
+			function updateSeconds()
+			{
+				myTime.setSeconds(myTime.getSeconds()+1);
+				mySeconds = myTime.getSeconds();
+			}
+			
+			function updateTenMiliseconds()
+			{
+				myTenMiliseconds++;
+				if (myTenMiliseconds == 100)
+				myTenMiliseconds = 0;
+			}
+			
+			function updateTimer()
+			{
+				if (myMinutes < 10)
+					toDisplay = "0" + myMinutes;	
+				else 
+					toDisplay = myMinutes;
+				if (mySeconds < 10)
+					toDisplay += ":0" + mySeconds;
+				else
+					toDisplay += ":" + mySeconds;
+				if (myTenMiliseconds < 10)
+					toDisplay += ".0" + myTenMiliseconds;
+				else 
+					toDisplay += "." + myTenMiliseconds;
+				document.getElementById("thetimerfont").innerHTML = toDisplay;
+			}
+			
+			function toHex(dec)
+			{
+				var hexCharacters = "0123456789ABCDEF";
+				if (dec < 0)
+				return "00";
+				if (dec > 255)
+				return "FF";
+				var i = Math.floor(dec / 16);
+				var j = dec % 16;
+				return hexCharacters.charAt(i) + hexCharacters.charAt(j);
+			}
+			
+			function changeBgColorOfTheTimer()
+			{
+				if (colorUpForTimerBG)
+				{
+					colorCurrentForTimerBG++;
+					if (colorCurrentForTimerBG == 255)
+					colorUpForTimerBG = false;
+				}
+				else
+				{
+					colorCurrentForTimerBG--;
+					if (colorCurrentForTimerBG == 150)
+					colorUpForTimerBG = true;
+				}
+				colorHex = toHex(colorCurrentForTimerBG);
+				document.getElementById("thetimer").style.backgroundColor = "#" + colorHex + "FFFF";
+			}
+			
+			function changeColorOfTheTimerText()
+			{
+				if (colorUpForTimerText)
+				{
+					colorCurrentForTimerText++;
+					if (colorCurrentForTimerText == 255)
+					colorUpForTimerText = false;
+				}
+				else
+				{
+					colorCurrentForTimerText--;
+					if (colorCurrentForTimerText == 140)
+					colorUpForTimerText = true;
+				}
+				colorHex = toHex(colorCurrentForTimerText);
+				document.getElementById("thetimer").style.color = "#00" + colorHex + "00";
+			}
+		</script>
+	</head>
+	<body>
+	<div align="center">
+	<table border='3' cellpadding='7' align='center' bordercolor='black'><tr><td id='thetimer' align='center'><font face='Arial' size='6' id='thetimerfont'>00:00.00</font></td></tr></table>
+	<br>
+	<input type="button" onclick="startTimer()" value="Start">
+	<input type="button" onclick="pauseTimer()" value="Pause/Stop">
+	<input type="button" onclick="resetTimer()" value="Reset">
+	<input type="button" onclick="saveThis()" value="Save">
+	<br><br>
+	<font face="Arial"><div align="center" id="linebreak"></div>
+	<div align="left">I KNOW THAT IT SUCKS! X.X<br>
+	If you don't understand why it sucks, try pausing and stuff.</div>
+	<div align="left"><ul id="savedresults"></ul></div>
+	</font>
+	</body>
+</html>

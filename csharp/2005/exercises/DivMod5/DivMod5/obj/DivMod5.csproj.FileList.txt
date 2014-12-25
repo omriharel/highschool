@@ -1,0 +1,2 @@
+obj\Release\DivMod5.exe
+obj\Release\DivMod5.pdb

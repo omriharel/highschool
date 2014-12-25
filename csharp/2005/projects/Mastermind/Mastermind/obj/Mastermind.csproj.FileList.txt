@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Mastermind.exe
+bin\Debug\Mastermind.pdb
+obj\Debug\Mastermind.exe
+obj\Debug\Mastermind.pdb
+bin\Release\Mastermind.exe
+bin\Release\Mastermind.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Mastermind.exe
+obj\Release\Mastermind.pdb

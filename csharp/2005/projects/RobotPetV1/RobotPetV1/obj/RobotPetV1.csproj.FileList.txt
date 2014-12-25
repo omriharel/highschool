@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\RobotPetV1.exe
+bin\Debug\RobotPetV1.pdb
+obj\Debug\RobotPetV1.exe
+obj\Debug\RobotPetV1.pdb
+bin\Release\RobotPetV1.exe
+bin\Release\RobotPetV1.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\RobotPetV1.exe
+obj\Release\RobotPetV1.pdb

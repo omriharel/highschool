@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>WizardSquare.png</Source>
+      <Name>WizardSquare</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\Content\WizardSquare.xnb</Output>
+      <Time>2008-12-10T19:20:31.359375+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fireball.png</Source>
+      <Name>Fireball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\Content\Fireball.xnb</Output>
+      <Time>2008-12-10T19:20:31.34375+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <RootDirectory>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\Content\</RootDirectory>
+      <LoggerRootDirectory>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\</LoggerRootDirectory>
+      <IntermediateDirectory>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>F:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2007-11-28T13:08:00+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2007-11-28T13:08:42+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2007-11-28T13:08:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\Program Files\Microsoft XNA\XNA Game Studio\v2.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2007-11-28T13:07:44+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>F:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\2.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-12-03T21:58:59.140625+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

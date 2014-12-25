@@ -1,0 +1,16 @@
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\GuitarHeroSim.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\GuitarHeroSim.pdb
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\bin\Debug\GuitarHeroSim.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\bin\Debug\GuitarHeroSim.pdb
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\GuitarHeroSim.MainScreen.resources
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\GuitarHeroSim.Properties.Resources.resources
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Debug\GuitarHeroSim.csproj.GenerateResource.Cache
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\bin\Release\GuitarHeroSim.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\bin\Release\GuitarHeroSim.pdb
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\GuitarHeroSim.MainScreen.resources
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\GuitarHeroSim.Properties.Resources.resources
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\GuitarHeroSim.csproj.GenerateResource.Cache
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\GuitarHeroSim.exe
+G:\Omri\comp_science\csharp\2005\projects\GuitarHeroSim\GuitarHeroSim\obj\Release\GuitarHeroSim.pdb

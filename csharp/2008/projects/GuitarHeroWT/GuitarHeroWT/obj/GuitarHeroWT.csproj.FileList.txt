@@ -1,0 +1,2 @@
+obj\Debug\GuitarHeroWT.exe
+obj\Debug\GuitarHeroWT.pdb

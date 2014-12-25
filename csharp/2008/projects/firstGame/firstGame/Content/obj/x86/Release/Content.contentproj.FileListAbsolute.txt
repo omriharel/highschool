@@ -1,0 +1,2 @@
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\Content\obj\x86\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2008\projects\firstGame\firstGame\Content\obj\x86\Release\ResolveAssemblyReference.cache

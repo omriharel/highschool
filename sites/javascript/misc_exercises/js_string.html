@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Javascript - String into array</title>
+		<script language="javascript">
+			var myArr = new Array(4); // Change size to completely customize
+			
+			function addToArrayByPrompt()
+			{
+				var stringToAdd = "";
+				for (var i = 0; i < (myArr.length); i++)
+				{
+					stringToAdd = window.prompt("Enter a string to add to the array.","");
+					var positionTaken = "";
+					do
+					{
+						var positionOk = false;
+						var whichPosition = window.prompt((positionTaken + "Which position would you like your string to be in? [1-" + myArr.length + "]"),"");
+						if (isNaN(whichPosition) || whichPosition == "")
+						{
+							window.alert("You can't use a string for a position. Please try again.");
+							continue;
+						}
+						if (whichPosition < 1 || whichPosition > myArr.length)
+						{
+							window.alert("Your number has to be from 1 to " + myArr.length + ".");
+							continue;
+						}
+						else
+						{
+							whichPosition = parseInt(whichPosition);
+							if (myArr[whichPosition - 1] == null)
+							{
+								myArr[whichPosition - 1] = stringToAdd;
+								positionTaken = "";
+								positionOk = true;
+							}
+							else
+							{
+								positionTaken = "Position " + whichPosition + " is currently taken.\n";
+								positionOk = false;
+							}
+						}
+					}
+					while (!positionOk);
+				}
+			}
+
+			function showArray()
+			{
+				document.write("The array contains the following values at the following positions:<br>");
+				for (var i = 0; i < (myArr.length); i++)
+				{
+					document.write('\"' + myArr[i] + '\" at position ' + (i + 1) + ' (which actually is ' + i + ' for programmers)<br>');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<script language="javascript">
+			addToArrayByPrompt();
+			showArray();
+		</script>
+	</body>
+</html>

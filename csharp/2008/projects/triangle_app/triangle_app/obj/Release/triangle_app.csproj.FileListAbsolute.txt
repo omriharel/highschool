@@ -1,0 +1,5 @@
+G:\Omri\comp_science\csharp\projects\triangle_app\triangle_app\bin\Release\triangle_app.exe
+G:\Omri\comp_science\csharp\projects\triangle_app\triangle_app\bin\Release\triangle_app.pdb
+G:\Omri\comp_science\csharp\projects\triangle_app\triangle_app\obj\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\projects\triangle_app\triangle_app\obj\Release\triangle_app.exe
+G:\Omri\comp_science\csharp\projects\triangle_app\triangle_app\obj\Release\triangle_app.pdb

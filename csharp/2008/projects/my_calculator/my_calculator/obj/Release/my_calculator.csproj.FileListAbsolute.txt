@@ -1,0 +1,14 @@
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Release\my_calculator.exe
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Release\my_calculator.pdb
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.myCalculator.resources
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.Properties.Resources.resources
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.csproj.GenerateResource.Cache
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.exe
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.pdb
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Release\my_calculator.exe.manifest
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Release\my_calculator.application
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.exe.manifest
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Release\my_calculator.application
+G:\Omri\comp_science\csharp\2008\projects\my_calculator\my_calculator\obj\Release\my_calculator.exe
+G:\Omri\comp_science\csharp\2008\projects\my_calculator\my_calculator\obj\Release\my_calculator.pdb

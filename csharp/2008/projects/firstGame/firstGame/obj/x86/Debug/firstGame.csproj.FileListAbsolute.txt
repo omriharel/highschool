@@ -1,0 +1,10 @@
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\Content\Sprites\background.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\Content\Sprites\cannon.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\Content\Sprites\cannonball.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\Content\Sprites\enemy.xnb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\firstGame.exe
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\bin\x86\Debug\firstGame.pdb
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Debug\firstGame.exe
+F:\Documents and Settings\User\My Documents\Visual Studio 2008\Projects\firstGame\firstGame\obj\x86\Debug\firstGame.pdb

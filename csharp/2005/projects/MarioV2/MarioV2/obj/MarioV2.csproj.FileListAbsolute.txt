@@ -1,0 +1,9 @@
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\Content\WizardSquare.xnb
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\Content\Fireball.xnb
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\MarioV2.exe
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\bin\x86\Debug\MarioV2.pdb
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\obj\x86\Debug\MarioV2.obj.x86.Debug.Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\obj\x86\Debug\MarioV2.exe
+G:\Omri\comp_science\csharp\2005\projects\MarioV2\MarioV2\obj\x86\Debug\MarioV2.pdb

@@ -1,0 +1,8 @@
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Debug\my_calculator.exe
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\bin\Debug\my_calculator.pdb
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\ResolveAssemblyReference.cache
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\my_calculator.myCalculator.resources
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\my_calculator.Properties.Resources.resources
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\my_calculator.csproj.GenerateResource.Cache
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\my_calculator.exe
+G:\Omri\comp_science\csharp\projects\my_calculator\my_calculator\obj\Debug\my_calculator.pdb

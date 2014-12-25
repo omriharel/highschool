@@ -1,0 +1,223 @@
+<html>
+	<script language="javascript">
+		function checkText(field, min)
+		{
+			var value = field.value;
+			if (value.length >= min)
+			{
+				field.style.backgroundColor = "#CCFFCC";
+			}
+			else
+			{
+				field.style.backgroundColor = "#FFCCCC";
+			}
+		}
+
+		function checkEmail(field)
+		{
+			var email = field.value;
+			var countAt = 0, countDot = 0;
+			for (var i = 1; i <= email.length - 1; i++)
+			{
+				if (email.charAt(i) == '@')
+				countAt++;
+			}
+			for (var i = 0; i <= email.length - 1; i++)
+			{
+				if (email.charAt(i) == '.' && i > email.indexOf('@'))
+				countDot++;
+			}
+			if(countAt != 1 || countDot < 1) // Check if email contains exactly one @ and at least one dot.
+			{
+				field.style.backgroundColor = "#FFCCCC";
+				window.status = "A valid E-Mail address must contain one @ and at least one dot.";
+			}
+			else
+			{
+				field.style.backgroundColor = "#CCFFCC";
+			}
+		}
+
+		function checkGender()
+		{
+			for (var i = 0; i < document.myForm.gender.length; i++)
+			{
+				if (document.myForm.gender[i].checked)
+				return true;
+			}
+			return false;
+		}
+
+		function checkHobbies()
+		{
+			var count = 0;
+			for (var i = 0; i < document.myForm.hobbies.length; i++)
+			{
+				if (document.myForm.hobbies[i].checked)
+				count++;
+			}
+			if (document.myForm.hobbies[5].checked && document.myForm.otherhobby.value.length == 0)
+			{
+				return false;
+			}
+			if (count > 0)
+			return true;
+			else
+			return false;
+		}
+
+		function checkFavState()
+		{
+			if (!document.myForm.favstate[0].selected)
+			return true;
+			else
+			return false;
+		}
+		
+		function checkBgColorByField(field)
+		{
+			var getBackgroundColor = field.style.backgroundColor;
+			if (getBackgroundColor == "rgb(204, 255, 204)" || getBackgroundColor == "#ccffcc") // Check browser compability for reading colors.
+			return true;
+			else
+			return false;
+		}
+
+		function enable(checkbox)
+		{
+			var textbox = document.myForm.otherhobby;
+			if (checkbox.checked)
+			{
+				textbox.disabled = false;
+			}
+			else
+			{
+				textbox.disabled = true;
+				textbox.value = "";
+			}
+		}
+		
+		function doSubmit(form)
+		{
+			genderOk = checkGender();
+			hobbiesOk = checkHobbies();
+			favStateOk = checkFavState();
+			firstNameOk = checkBgColorByField(myForm.firstname);
+			lastNameOk = checkBgColorByField(myForm.lastname);
+			emailOk = checkBgColorByField(myForm.email);
+			passwordOk = checkBgColorByField(myForm.password);
+			userNameOk = checkBgColorByField(myForm.username);
+			if (genderOk && hobbiesOk && favStateOk && firstNameOk && lastNameOk && emailOk && passwordOk && userNameOk)
+			{
+				var user = form.firstname.value;
+				var userName = user.charAt(0).toUpperCase() + user.substring(1, user.length + 1).toLowerCase();
+				window.alert("I do absolutely nothing at this time, " + userName + ", sorry for having you fill out this horrible form.\nAt least you filled it out RIGHT, though.");
+
+			}
+			else
+			{
+				var reason = "";
+				if (!firstNameOk)
+				reason += "\n- You don't have a first name.";
+				if (!lastNameOk)
+				reason += "\n- You have no family name, and that's unacceptable.";
+				if (!userNameOk)
+				reason += "\n- Your username is quite pathetic... Cookie?";
+				if (!passwordOk)
+				reason += "\n- Your password is ridiculous.";
+				if (!emailOk)
+				reason += "\n- I need your E-Mail, and yet you didn't give me it. I'm offended.";
+				if (!genderOk)
+				reason += "\n- You can't seem to decide whether you're a male or a female.";
+				if (!hobbiesOk)
+				reason += "\n- It appears that your ego is too high to enjoy any regular human hobbies.";
+				if (!favStateOk)
+				reason += "\n- Either you can't use a scrollbox or none of the states are good enough for you.";
+				window.alert("You can't even fill out a simple form right.\nThis is why you fail:" + reason);
+			}
+		}
+	</script>
+	<head>
+		<title>
+			Example of form checking
+		</title>
+	</head>
+	<body>
+		<font face="Arial">
+		Please note that this form is NOT functional, and is only used to practice checks for valid user input.<br><br>
+		<table cellpadding="2" cellspacing="3" border="0">
+		<form name="myForm">
+			<tr><td><font size="2">First Name:</font></td><td><input type="text" name="firstname" maxlength="15" onblur="checkText(this,2)"></td><td><font size="1">2-15 characters</font></td></tr>
+			<tr><td><font size="2">Last Name:</font></td><td><input type="text" name="lastname" maxlength="15" onblur="checkText(this,2)"></td><td><font size="1">2-15 characters</font></td></tr>
+			<tr><td><font size="2">Username:</font></td><td><input type="text" name="username" maxlength="15" onblur="checkText(this,8)"></td><td><font size="1">8-15 characters</font></td></tr>
+			<tr><td><font size="2">Password:</font></td><td><input type="password" name="password" maxlength="15" onblur="checkText(this,8)"></td><td><font size="1">8-15 characters</font></td></tr>
+			<tr><td><font size="2">E-Mail:</font></td><td><input type="text" name="email" onblur="checkEmail(this)"></td><td><font size="1">Input a valid address.</font></td></tr>
+			<tr><td><font size="2">Gender:</font></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male"><font size="2">Male</font><br>
+			&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="female"><font size="2">Female</font></td></tr>
+			<tr><td><font size="2">Hobbies:</font><font size="1"> Select at least one.</font></td></tr>
+			<tr><td>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hobbies" value="videogames"><font size ="2">Video games<br>
+			&nbsp;&nbsp;&nbsp;<input type="checkbox" name="hobbies" value="sports">Sports</font></td>
+			<td><input type="checkbox" name="hobbies" value="art"><font size ="2">Art<br>
+			<input type="checkbox" name="hobbies" value="music">Music</font></td>
+			<td><input type="checkbox" name="hobbies" value="tv"><font size ="2">TV<br>
+			<input type="checkbox" name="hobbies" value="other" onClick="enable(this)">Other <font size="1">(Please specify)</font></font></td><td valign="bottom"><input type="text" name="otherhobby" disabled></td></tr>
+			<tr></tr><tr></tr><tr><td><font size="2">Favorite State:</font></td><td valign="bottom"><select name="favstate">
+			<option value="nostate" selected id="0">Select a State</option>
+			<option value="alabama">Alabama</option>
+			<option value="arizona">Arizona</option>
+			<option value="arkansas">Arkansas</option>
+			<option value="alaska">Alaska</option>
+			<option value="california">California</option>
+			<option value="colorado">Colorado</option>
+			<option value="conneticut">Conneticut</option>
+			<option value="delaware">Delaware</option>
+			<option value="florida">Florida</option>
+			<option value="georgia">Georgia</option>
+			<option value="hawaii">Hawaii</option>
+			<option value="iowa">Iowa</option>
+			<option value="illinois">Illinois</option>
+			<option value="indiana">Indiana</option>
+			<option value="idaho">Idaho</option>
+			<option value="kentucky">Kentucky</option>
+			<option value="kansas">Kansas</option>
+			<option value="louisiana">Louisiana</option>
+			<option value="montana">Montana</option>
+			<option value="minnesota">Minnesota</option>
+			<option value="missouri">Missouri</option>
+			<option value="mississippi">Mississippi</option>
+			<option value="michigan">Michigan</option>
+			<option value="massachusetts">Massachusetts</option>
+			<option value="maryland">Maryland</option>
+			<option value="maine">Maine</option>
+			<option value="nevada">Nevada</option>
+			<option value="nebraska">Nebraska</option>
+			<option value="newyork">New York</option>
+			<option value="newhampshire">New Hampshire</option>
+			<option value="newmexico">New Mexico</option>
+			<option value="newjersey">New Jersey</option>
+			<option value="northcarolina">North Carolina</option>
+			<option value="northdakota">North Dakota</option>
+			<option value="ohio">Ohio</option>
+			<option value="oregon">Oregon</option>
+			<option value="oklahoma">Oklahoma</option>
+			<option value="pennsylvania">Pennsylvania</option>
+			<option value="rhodeisland">Rhode Island</option>
+			<option value="southcarolina">South Carolina</option>
+			<option value="southdakota">South Dakota</option>
+			<option value="texas">Texas</option>
+			<option value="tennessee">Tennessee</option>
+			<option value="utah">Utah</option>
+			<option value="vermont">Vermont</option>
+			<option value="virginia">Virginia</option>
+			<option value="westvirginia">West Virginia</option>
+			<option value="washington">Washington</option>
+			<option value="wyoming">Wyoming</option>
+			<option value="wisconsin">Wisconsin</option>
+			</select></td></tr>
+			<tr><td><input type="button" value="Submit" onClick="doSubmit(myForm)"></td></tr>
+		</form>
+		</table>
+		</font>
+	</body>
+</html>

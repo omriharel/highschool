@@ -1,0 +1,9 @@
+bin\x86\Debug\Content\WizardSquare.xnb
+bin\x86\Debug\MarioV2.exe
+bin\x86\Debug\MarioV2.pdb
+obj\x86\Debug\ResolveAssemblyReference.cache
+obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+obj\x86\Debug\MarioV2.obj.x86.Debug.Microsoft.Xna.Framework.RuntimeProfile.txt
+obj\x86\Debug\MarioV2.exe
+obj\x86\Debug\MarioV2.pdb
+bin\x86\Debug\Content\Fireball.xnb
